@@ -11,7 +11,8 @@ _La colonne 5 Protocole : c'est le type du paquet. ici il s'agit du protocole AR
   - les adresses IP sont en l'en-tête IP du paquet, on les trouveres dans les champs "Source"vet "Destination" de l'en-tête IP. ![image](https://github.com/manmaryem/manmaryem/assets/137881827/641e74b6-256f-4ed5-add5-e64d3f845173)
 
 3. ### Quel filtre d'affichage permet de ne plus afficher les paquets ARP ? ###
-   la barre du filtre d'affichage  ![image](https://github.com/manmaryem/manmaryem/assets/137881827/145be693-2036-4b48-abec-84df20e2e819)
+   la barre du filtre d'affichage  ![image](https://github.com/manmaryem/manmaryem/assets/137881827/5ed96ca1-a91f-43bb-8cef-f22ad275f101)
+
 
 4. ### Quelles informations sont disponibles dans la colonne info de la liste des paquets pour la ligne 3 ? ###
    
@@ -25,7 +26,7 @@ Lorsqu’une commande ping est exécuté depuis un appareil source vers un appar
 *et quel est le paquet correspondant (la question, si c'est une réponse ou la réponse, si c'est une question ?*
 ![image](https://github.com/manmaryem/manmaryem/assets/137881827/3bf3f284-53be-42da-a628-9806cc71db90)
 
-- Un "ping reply" (réponse de ping) en réponse à un paquet ICMP Echo Request (demande d'écho) lorsqu'un appareil est "pingé".
+- Un "ping reply" (réponse de ping) en réponse à un paquet ICMP Echo Request donc ici il s'agit de la réponse pour le paquet 7 (demande d'écho) lorsqu'un appareil est "pingé".
 Lorsqu’une commande ping est exécuté depuis un appareil source vers un appareil de destination, l'appareil source envoie des paquets ICMP Echo Request à l'appareil de destination. Si l'appareil de destination est accessible et fonctionnel, il répondra avec des paquets ICMP Echo Reply. 
 
 
